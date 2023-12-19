@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- <style>
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: rgb(18, 18, 62);
+        height: 50px;
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin-right: 35px;
+        font-size: 13px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        color: lavender;
+        font-size: 14px;
+      }
+      .left {
+        font-size: 1.5rem;
+      }
+      firstsection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+      .leftsection {
+        margin-top: 50px;
+        margin-left: 20px;
+        width: 50%;
+        font-size: 35px;
+      }
+      .btn {
+        padding: 10px;
+        background-color: rgb(88, 67, 175);
+        color: white;
+        border: 2px solid white;
+        border-radius: 20px;
+        cursor: pointer;
+      }
+      .buttons {
+        margin-top: 20px;
+      }
+      .rightsection {
+        margin-top: 15px;
+        width: 30%;
+      }
+      .rightsection img {
+        width: 110%;
+      }
+      .purple {
+        color: rgb(135, 51, 135);
+      }
+      #element {
+        color: rgb(107, 15, 110);
+      }
+    </style> -->
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div
+          class="left"
+          id="left"
+          onclick="myFunction()"
+          style="color: aliceblue"
+        >
+          Light
+        </div>
+        <div class="right">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#exp">Projects</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+            <li><a href="#skill">Skills</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <firstsection id="home">
+        <div class="leftsection">
+          Hi, My name is <span class="purple"> Bilal</span>
+          <div>I am a passionate</div>
+          <span id="element"></span>
+          <div class="buttons">
+            <a href="resume.html"
+              ><button class="btn">Download Resume</button></a
+            >
+            <a href="https://github.com/MBilal1999a"
+              ><button class="btn">GitHUb</button></a
+            >
+          </div>
+        </div>
+        <div class="rightsection">
+          <img src="Web_development.png" alt="Image" />
+        </div>
+      </firstsection>
+      <hr />
+      <workexperience>
+        <h1 id="exp">Work Experience</h1>
+        <ol class="grid-list">
+          <li class="item"><img src="linkedIn-logo-0.png" /></li>
+          <li class="item"><img src="linkedIn-logo-0.png" /></li>
+
+          <li class="item"><img src="linkedIn-logo-0.png" /></li>
+          <li class="item"><img src="linkedIn-logo-0.png" /></li>
+          <li class="item"><img src="linkedIn-logo-0.png" /></li>
+          <li class="item"><img src="linkedIn-logo-0.png" /></li>
+        </ol>
+      </workexperience>
+      <hr />
+      <about id="about">
+        <h1>About</h1>
+        <p></p>
+        <div class="content_aboutme">
+          <p>
+            Embarking on a three-year journey within the IT realm, I specialize
+            in testing e-commerce websites with a keen focus on both manual and
+            automation testing. My expertise extends to a variety of tools,
+            including Q-test, Postman, Adobe Experience Manager (AEM), Selenium,
+            and Cucumber.
+          </p>
+          <!-- <br />
+          <b>Key Highlights:</b><br /> -->
+
+          <b>Testing Mastery:</b>
+          <p>
+            Proficient in executing a spectrum of testing types, encompassing
+            regression, functional, and API testing. I meticulously develop,
+            execute, and review test cases and scenarios to ensure comprehensive
+            coverage.
+          </p>
+          <!-- <br /> -->
+          <b>Agile Collaboration:-</b>
+          <p>
+            Well-versed in working within Agile methodologies, I seamlessly
+            adapt to changes, contribute actively to technical discussions, and
+            collaborate closely with clients. I actively participate in story
+            estimation, ensuring alignment with project goals.
+          </p>
+          <!-- <br /> -->
+          <b>Technical Proficiency:-</b>
+          <p>
+            Beyond testing, my skills include working with tools such as Q-test,
+            Postman, Adobe Experience Manager (AEM), Selenium, and Cucumber.
+            This diverse toolkit enhances my ability to address varied testing
+            challenges.
+          </p>
+          <!-- <br /> -->
+          <b>Programming Expertise:-</b>
+          <p>
+            I bring a robust foundation in programming languages, including C,
+            C++, Java, and Python. This knowledge further strengthens my
+            understanding of the software development lifecycle.
+          </p>
+          <!-- <br /> -->
+          <b>Client Interaction:-</b>
+          <p>
+            Active engagement with clients allows me to understand their
+            requirements thoroughly, ensuring that testing efforts align
+            seamlessly with project objectives.
+          </p>
+          <!-- <br /> -->
+          <b>Tool Proficiency:-</b>
+          <p>
+            Proficient in utilizing JIRA for defect reporting and tracking,
+            contributing to a streamlined and efficient testing process.
+          </p>
+          <!-- <br /> -->
+        </div>
+      </about>
+      <hr />
+      <skills id="skill">
+        <h1>Skills</h1>
+        <div class="skill">
+          <div id="bioContainer">
+            <img aria-hidden="true" src="picture_profile.png" alt="" />
+          </div>
+          <div id="bioText">
+            <div class="bMIVPH">
+              <ul class="dTyTDJ">
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>Git</li>
+                <li class="frontend">React</li>
+                <li class="backend">Node.js</li>
+                <li class="frontend">HTML</li>
+                <li class="frontend">CSS</li>
+                <li class="devOps">GitHUb</li>
+                <li class="frontend">microsoft visual studio</li>
+                <li class="frontend">SQL</li>
+                <li class="db">MongoDB</li>
+                <li class="backend">Agile methodology</li>
+                <li class="backend">Software Testing</li>
+                <li class="db">Jira</li>
+                <li class="backend">Postman</li>
+                <li class="db">AEM</li>
+                <li class="backend">Selenium</li>
+                <li class="cms">Cucumber</li>
+                <li class="cms">C</li>
+                <li class="cms">C++</li>
+                <li class="cms">Java</li>
+                <li class="cms">Express</li>
+                <li class="cms">REST API</li>
+                <li class="cms">intelliJ IDEA</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3>I love building stuff 📱</h3>
+              <p>
+                I started playing with computers when I was 11 years-old. Since
+                then I have been tinkering with all sorts of technologies that
+                in some way or another led me to work on music, photography,
+                sound engineering, electric engineering, automation, video
+                production, feature film post-production, VR games, and 3D
+                sound.
+              </p>
+            </div>
+            <!-- <div class="pages__ReadMore-sc-1lb5jh1-4 fOIBZy">
+              <a href="/about">Keep reading my bio</a>
+            </div> -->
+          </div>
+        </div>
+      </skills>
+      <hr />
+      <contactme id="contact">
+        <h1>Contact Me</h1>
+        <div class="contactme">
+          <ul>
+            <li>
+              <a href="https://www.linkedin.com/in/bilal-mohammad-8b8408184"
+                ><img src="linkedinlogo1.png" height="50px" width="50px"></img></a
+              >
+            </li>
+            <li>
+              <a href="https://github.com/MBilal1999a"
+                ><img src="download.png" height="50px" width="50px" style="border-radius :40px ;"></img></a
+              >
+            </li>
+            <li class="conect">
+              <!-- <a href="https://github.com/MBilal1999a"
+                > -->
+                <img src="email.jpg" height="35px" width="35px" style="border-radius :40px ;"></img>
+                <div style="font-size: 10px;">mbilalmm1999@gmail.com</div>
+              <!-- </a> -->
+            </li>
+            <li class="conect">
+              <!-- <a href="https://github.com/MBilal1999a"
+                > -->
+                <img src="mobile-photo.png" height="35px" width="35px" style="border-radius :40px ;"></img>
+                <div style="font-size: 10px;">+91 8888332821</div> 
+              <!-- </a> -->
+            </li>
+            <!-- <li><a href="https://github.com/MBilal1999a">GitHUb</a></li>
+            <li><a href="mbilalmm1999@gmail.com">Email</a></li>
+            <li><a href="8888332821">Mobile</a></li> -->
+          </ul>
+
+          <!-- <div class="">
+          <a href="https://github.com/aaspinwall" target="blank"
+            ><svg height="1em" width="1em"></svg>e</a
+          >
+          <a
+            href="https://www.linkedin.com/in/alejandroaspinwall/?locale=en_US"
+            target="blank"
+            ><svg height="1em" width="1em"></svg>ef</a
+          >
+          <a href="https://twitter.com/aaspinwall" target="blank"
+            ><svg height="1em" width="1em"></svg>fff</a
+          >
+          <a href="mailto:contact@aaspinwall.com"
+            ><svg height="1em" width="1em"></svg>ffff</a
+          >
+        </div> -->
+        </div>
+      </contactme>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", "Quality Engineer", "Java Developer"],
+        typeSpeed: 50,
+      });
+    </script>
+    <script>
+      function myFunction() {
+        var element = document.body;
+        if (document.getElementById("left").innerText == "Dark") {
+          document.getElementById("left").innerText = "Light";
+        } else {
+          document.getElementById("left").innerText = "Dark";
+          document.getElementById("left").color = "black";
+        }
+        element.classList.toggle("dark-mode");
+      }
+    </script>
+  </body>
+</html>
